@@ -4,15 +4,31 @@
 		"selected_items":
 		[
 			[
-				"ch",
-				"character"
+				"shif",
+				"shifted_character"
+			],
+			[
+				"mod",
+				"modified_string"
 			],
 			[
 				"cha",
-				"characters"
+				"character"
+			],
+			[
+				"up",
+				"upper_case"
+			],
+			[
+				"le",
+				"letter"
 			],
 			[
 				"chara",
+				"character"
+			],
+			[
+				"ch",
 				"character"
 			],
 			[
@@ -22,10 +38,6 @@
 			[
 				"charact",
 				"character"
-			],
-			[
-				"mod",
-				"mod_string"
 			],
 			[
 				"number",
@@ -502,18 +514,6 @@
 			[
 				"arrow",
 				"arrow_more	(index.html)"
-			],
-			[
-				"ted",
-				"text-decoration"
-			],
-			[
-				"cl",
-				"cl	clear: ${1:both};"
-			],
-			[
-				"nav",
-				"nav_end	(index.html)"
 			]
 		]
 	},
@@ -778,8 +778,8 @@
 	],
 	"file_history":
 	[
-		"/C/Sites/the_odin_project/Ruby/CCtest.rb",
 		"/C/Sites/the_odin_project/Ruby/the-Odin-Project-Ruby-Buiding-blocks-Caesar-Cipher/caesar_cipher.rb",
+		"/C/Sites/the_odin_project/Ruby/CCtest.rb",
 		"/C/Sites/the_odin_project/Ruby/[shell_cmd",
 		"/C/Sites/the_odin_project/Ruby/test.rb",
 		"/C/Sites/the_odin_project/JavaScript/the-Odin-Project-javascript-project-euler/3.largest_prime_factor.js",
@@ -925,6 +925,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lower_case",
+			"shift",
+			"upper",
 			"ceasar",
 			"ceasar_cipher",
 			"c",
@@ -1049,10 +1052,7 @@
 			"insert",
 			"a",
 			"Customize",
-			"font-s",
-			"top_nav_links",
-			">\n",
-			"a>"
+			"font-s"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1192,7 +1192,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 217.0,
 	"status_bar_visible": true,
 	"template_settings":

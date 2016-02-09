@@ -1,17 +1,17 @@
 def caesar_cipher(string, shift_factor)
-  upper_case, lower_case = ("A".."Z").to_a, ("a".."z").to_a
-  letters, modified_string = [], ""
+  upper_case_letters, lower_case_letters = ("A".."Z").to_a, ("a".."z").to_a
+  alphabet, modified_string = [], ""
   string.each_char do |character|
-    if upper_case.include? character
-      letters = upper_case
-    elsif lower_case.include? character
-      letters = lower_case
+    if upper_case_letters.include? character
+      alphabet = upper_case_letters
+    elsif lower_case_letters.include? character
+      alphabet = lower_case_letters
     else
       modified_string << character
     end
-    letters.each do |letter| 
+    alphabet.each do |letter| 
       if character == letter
-        modified_string << (letters[letters.index(letter) + (shift_factor - 26)])
+        modified_string << (alphabet[alphabet.index(letter) + (shift_factor - 26)])
        end
     end
   end
