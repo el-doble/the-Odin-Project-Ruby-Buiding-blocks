@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"da",
+				"day_to_sell"
+			],
+			[
+				"day",
+				"day_to_buy"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"m",
+				"max	max { |a, b| .. }"
+			],
+			[
+				"stock",
+				"stock_prices"
+			],
+			[
+				"sto",
+				"stock_prices"
+			],
+			[
+				"le",
+				"letters"
+			],
+			[
 				"shif",
 				"shifted_character"
 			],
@@ -18,10 +46,6 @@
 			[
 				"up",
 				"upper_case"
-			],
-			[
-				"le",
-				"letter"
 			],
 			[
 				"chara",
@@ -166,10 +190,6 @@
 			[
 				"tr",
 				"tree"
-			],
-			[
-				"in",
-				"input"
 			],
 			[
 				"se",
@@ -494,31 +514,19 @@
 			[
 				"sea",
 				"search_tools	 style.css"
-			],
-			[
-				"top",
-				"top_nav_link"
-			],
-			[
-				"arow",
-				"arrow_more	 style.css"
-			],
-			[
-				"mo",
-				"more_link	(style.css)"
-			],
-			[
-				"inl",
-				"inline-block"
-			],
-			[
-				"arrow",
-				"arrow_more	(index.html)"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "stock_picker.rb",
+			"settings":
+			{
+				"buffer_size": 759,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -925,6 +933,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"profit",
+			"index",
+			"b",
+			"a",
+			"b",
+			"+",
+			" +",
+			"b",
+			"price",
+			"a",
+			"profit",
+			"user_prices",
+			"b",
+			"a",
+			"index",
+			"-",
+			"indenext_price",
+			"x",
+			"stock_prices[index]",
+			"lower_case",
+			"upper_case",
+			"letters",
 			"lower_case",
 			"shift",
 			"upper",
@@ -1030,29 +1060,7 @@
 			"build",
 			"Build",
 			"build",
-			"Build",
-			"build",
-			"Build",
-			"www",
-			"...",
-			"more",
-			"E5E5E5",
-			"display",
-			"transparent",
-			"4387FD",
-			"split",
-			" ",
-			"two",
-			" ",
-			"selection",
-			"<h3>",
-			"resul",
-			"a",
-			"python",
-			"insert",
-			"a",
-			"Customize",
-			"font-s"
+			"Build"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1071,8 +1079,50 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "stock_picker.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
