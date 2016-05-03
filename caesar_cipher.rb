@@ -1,21 +1,14 @@
 def caesar_cipher(string, shift_factor)
-  upper_case_letters, lower_case_letters = ("A".."Z").to_a, ("a".."z").to_a
-  alphabet, modified_string = [], ""
-  string.each_char do |character|
-    if upper_case_letters.include? character
-      alphabet = upper_case_letters
-    elsif lower_case_letters.include? character
-      alphabet = lower_case_letters
-    else
-      modified_string << character
+  ciphered_string, offset = "", 0
+  string.each_char do |char|
+    if char.match(/[[:alpha:]]/)
+      offset = 64  if char.match(/[[:upper:]]/) 
+      offset = 96 if char.match(/[[:lower:]]/)
+      char = (((char.ord - offset) + shift_factor) % 26 + offset).chr
     end
-    alphabet.each do |letter| 
-      if character == letter
-        modified_string << (alphabet[alphabet.index(letter) + (shift_factor - 26)])
-       end
-    end
+    ciphered_string << char
   end
-  return modified_string
+  return ciphered_string
 end
 
-puts caesar_cipher("What a string!", 5)
+puts caesar_cipher("What a String!", 5)
